@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,17 +15,30 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="header">
-          <div class="header-line">
-            <div class="header-menu">
-              <img src="Menu.png" alt="" />
-            </div>
-          </div>
+      <div class="main_container">
+        <!-- для Миланы -->
+        <div id="mySidenav" class="sidenav">
+          <a id="closeBtn" href="#" class="close">×</a>
+          <ul>
+            <li><a href="../pages/bobovko.html">Бобовко Зинаида Владимировна</a></li>
+            <li><a href="../pages/bondarenko.html">Бондаренко Александра Степановна</a></li>
+            <li><a href="../pages/grabchikova.html">Грабчикова Елена Фоминична</a></li>
+            <li><a href="../pages/nikitin.html">Никитин Алексей Семенович </a></li>
+            <li><a href="../index.html">Пак Валерий Павлович</a></li>
+            <li><a href="../pages/pishnenko.html">Пышненко Зоя Максимовна</a></li>
+            <li><a href="../pages/holodinsky.html">Холодинский Иван Игнатьевич</a></li>
+          </ul>
         </div>
+        <!-- дасюдава -->
+        <a href="#" id="openBtn">
+          <span class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
       </div>
     </header>
-
     <main>
       <div class="main_container">
         <div class="text">
@@ -51,4 +64,5 @@
 
     <footer></footer>
   </body>
+  <script src="../js/burger.js"></script>
 </html>
